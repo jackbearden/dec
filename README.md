@@ -1,7 +1,7 @@
 # Distributed Elevator Control
 
 ## Summary
-A high performant, distributed elevator control system.
+A high performant, distributed elevator control system focused on scalability.
 
 ## Features
 - Decoupled concurrency
