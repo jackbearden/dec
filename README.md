@@ -5,7 +5,7 @@ A high performant, distributed elevator control system.
 
 ## Features
 - Decoupled concurrency
-- Fault tolerant
+- Fault-tolerant
 - Optimized scheduling
 - Powerful CLI
 - RPC serialized by Protobuf
