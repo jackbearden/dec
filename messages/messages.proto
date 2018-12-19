@@ -1,0 +1,33 @@
+
+syntax = "proto3";
+
+package messages;
+
+import "github.com/AsynkronIT/protoactor-go/actor/protos.proto";
+
+message StatusRequest {
+  actor.PID Sender = 1;
+}
+
+message StatusResponse {
+  uint32 Id = 1;
+  uint32 Floor = 2;
+  int32 Goal = 3;
+  int32 State = 4;
+}
+
+message UpdateRequest {
+  actor.PID Sender = 1;
+  uint32 Goal = 2;
+  int32 State = 3;
+}
+
+message PickupRequest {
+  actor.PID Sender = 1;
+  uint32 Floor = 2;
+  int32 State = 3;
+}
+
+message StepRequest {
+  actor.PID Sender = 1;
+}

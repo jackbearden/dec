@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dec:
+    container_name: desktop
+    image: dec:1.0
+    command: ./start.sh
+    build:
+      context: .
+      dockerfile: Dockerfile
