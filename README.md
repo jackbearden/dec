@@ -27,7 +27,7 @@ $ docker-compose build
 ## Running
 ```bash
 $ docker-compose up
-$ docker exec -it dec bash
+$ docker exec -it desktop bash
 $ cli --elevators=2
 ```
 
